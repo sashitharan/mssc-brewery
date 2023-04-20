@@ -23,4 +23,10 @@ public class BeerServiceImpl implements BeerService {
                 .id(UUID.randomUUID())
                 .build();
     }
+
+    @Override
+    public void updateBeer(UUID beerId, BeerDTO beerDTO) {
+        System.out.println(beerId);
+// todo implement- add a real time update
+    }
 }
