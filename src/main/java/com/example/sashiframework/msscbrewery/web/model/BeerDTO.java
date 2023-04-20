@@ -15,10 +15,10 @@ import java.util.UUID;
 @Builder //Implement Builder pattern for us
 public class BeerDTO {
 
-private UUID id;
-private String beerName;
-private String beerStyle;
-private Long upc;
+    private UUID id;
+    private String beerName;
+    private String beerStyle;
+    private Long upc;
 
 
 }
